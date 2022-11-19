@@ -1,0 +1,27 @@
+.navbar{
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    margin: 0 5px;
+    height: 1.9rem;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--primary-font)
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+    margin: 0 5px;
+}
+
+.account{
+    margin: 0 5px;
+    height: 1.6rem;
+}
