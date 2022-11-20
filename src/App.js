@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar.jsx';
 import './css/main.css'
 import Pomodoro from './components/Pomodoro.jsx';
+import Todolist from './components/Todolist.jsx';
 
 function App() {
   return (
@@ -13,9 +14,8 @@ function App() {
       Pomodoro Timer
         ✅ Timer
         ✅ Start/Stop Button
-        - Reset Button
         ✅ Focus/Short Break/Long Break Buttons
-      Tips
+      ✅ Tips
         - Tip 1 for Focus
         - Tip 2 for Short Break
         - Tip 3 for Long Break
@@ -41,6 +41,7 @@ function App() {
       */}
       <Navbar />
       <Pomodoro />
+      <Todolist />
     </div>
   );
 }

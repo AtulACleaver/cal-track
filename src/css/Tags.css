@@ -1,5 +1,5 @@
 .TagsContainer{
-    background: #C7E2F8;
+    background: var(--bg-color);
     height: 3.5rem;
     width: 30rem;
     border-radius: .8rem;
