@@ -1,0 +1,35 @@
+.music-player{
+    position: absolute;
+    top: 9rem;
+    right: 2rem;
+    color: #fff;
+}
+
+.music-player-card{
+    width: 20rem;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.music-player-heading{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.music-player-controls-title{
+    padding-top: .5rem;
+}
+
+.music-controls{
+    width: 100%;
+    margin-top: .5rem;
+    border-radius: 0;
+}
+
+
+

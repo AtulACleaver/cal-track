@@ -16,12 +16,7 @@ function Navbar() {
           </a>
           <div className="d-flex">
             <a className="nav-link" href="##">
-              <img
-                src="../img/account.png"
-                alt="account"
-                className="d-inline-block align-text-top account"
-              />
-              Account
+              My Journey
             </a>
           </div>
         </div>

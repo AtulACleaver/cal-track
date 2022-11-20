@@ -3,6 +3,7 @@ import './css/main.css'
 import Pomodoro from './components/Pomodoro.jsx';
 import Todolist from './components/Todolist.jsx';
 import Footer from './components/Footer.jsx';
+import Music from './components/Music.jsx';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         - Task List
         - Add Task Button
         - Delete Task Button
-      Footer
+      ✅ Footer
         - Github Link
         - LinkedIn Link
         - Email Link
@@ -41,6 +42,7 @@ function App() {
           - Volume Slider
       */}
       <Navbar />
+      <Music />
       <Pomodoro />
       <Todolist />
       <Footer />
