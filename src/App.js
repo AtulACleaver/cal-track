@@ -2,6 +2,7 @@ import Navbar from './components/Navbar.jsx';
 import './css/main.css'
 import Pomodoro from './components/Pomodoro.jsx';
 import Todolist from './components/Todolist.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
         ✅ Start/Stop Button
         ✅ Focus/Short Break/Long Break Buttons
       ✅ Tips
-        - Tip 1 for Focus
-        - Tip 2 for Short Break
-        - Tip 3 for Long Break
+        ✅ Tip 1 for Focus
+        ✅ Tip 2 for Short Break
+        ✅ Tip 3 for Long Break
       Todo List
         - Connect with Google Calendar
         - Task List
@@ -42,6 +43,7 @@ function App() {
       <Navbar />
       <Pomodoro />
       <Todolist />
+      <Footer />
     </div>
   );
 }
