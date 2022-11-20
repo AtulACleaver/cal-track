@@ -7,7 +7,7 @@
 
 .music-player-card{
     width: 20rem;
-    background-color: rgba(0,0,0,0.6);
+    background-color: #1c95e5de;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
     overflow: hidden;
