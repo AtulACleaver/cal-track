@@ -1,10 +1,9 @@
 import "../css/Navbar.css";
 import "../css/main.css";
 import Tags from "./Tags.jsx";
-import restart from "../img/restart.svg";
-// import settings from '../img/settings.svg'
 import { useContext, useEffect } from "react";
 import { StateContext } from "./StateProvider";
+import Tips from "./Tips.jsx";
 
 function Pomodoro() {
   const {time, setTime, isActive, setIsActive} = useContext(StateContext);
@@ -30,9 +29,6 @@ function Pomodoro() {
 
   return (
     <div className="pomo-container">
-      <div className="pomo-settings">
-        {/* <img src={settings} alt="Settings" className="pomo-setting-icon" /> */}
-      </div>
       <h1 className="pomo-timer">{getTime(time)}</h1>
       <div className="pomo-buttons">
         <button className="pomo-button" onClick={toggleClock}>{isActive ? "Stop" : "Start"}</button>
@@ -41,9 +37,7 @@ function Pomodoro() {
         <Tags />
       </div>
       <div className="pomo-tip">
-        <p className="pomo-tip">
-          <b>Tip:</b> Take a break every 25 minutes!
-        </p>
+          <Tips />
       </div>
     </div>
   );
