@@ -1,19 +1,20 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import './css/main.css'
+import Pomodoro from './components/Pomodoro.jsx';
 
 function App() {
   return (
     <div className="App">
       {/* 
-      Navbar
+      ✅ Navbar
         - Logo
         - Heading
-      Background Animation
+      ✅ Background Animation
       Pomodoro Timer
-        - Timer
-        - Start/Stop Button
+        ✅ Timer
+        ✅ Start/Stop Button
         - Reset Button
-        - Focus/Short Break/Long Break Buttons
+        ✅ Focus/Short Break/Long Break Buttons
       Tips
         - Tip 1 for Focus
         - Tip 2 for Short Break
@@ -39,6 +40,7 @@ function App() {
           - Volume Slider
       */}
       <Navbar />
+      <Pomodoro />
     </div>
   );
 }

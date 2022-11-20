@@ -1,0 +1,52 @@
+.pomo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+@font-face {
+    font-family: 'Gummy Bears';
+    src: url('../fonts/GummyBears.woff2') format('woff2'),
+        url('../fonts/GummyBears.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.pomo-timer{
+    font-family: var(--secondary-font);
+    font-size: 15rem;
+    color: var(--text-color);
+    margin-bottom: -1rem;
+}
+
+.pomo-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.pomo-button{
+    font-family: var(--secondary-font);
+    font-size: 3.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.pomo-button-icon{
+    height: 3.5rem;
+    filter: invert(40%) sepia(81%) saturate(592%) hue-rotate(163deg) brightness(107%) contrast(93%);
+}
+
+.pomo-status{
+    margin: 2rem 0;
+}
+
+.pomo-tip{
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+}

@@ -6,6 +6,8 @@
 
 :root{
     --primary-font: 'Sora', sans-serif;
+    --secondary-font: 'Gummy Bears', cursive;
+    --text-color: #1C94E5;
 }
 
 body{
