@@ -23,9 +23,9 @@ function App() {
         ✅ Tip 3 for Long Break
       Todo List
         - Connect with Google Calendar
-        - Task List
-        - Add Task Button
-        - Delete Task Button
+        ✅ Task List
+        ✅ Add Task Button
+        ✅ Delete Task Button
       ✅ Footer
         - Github Link
         - LinkedIn Link
@@ -33,7 +33,7 @@ function App() {
         - Twitter Link
         - Instagram Link
         - Website Link
-      Music Controls
+      ✅ Music Controls
         Music Radio
           - Nature Sounds
           - Lofi Music
