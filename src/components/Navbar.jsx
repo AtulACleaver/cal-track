@@ -13,7 +13,7 @@ function Navbar() {
               alt="Logo"
               className="d-inline-block align-text-top logo"
             />
-            CalTrack
+            CalTrack ADHD
           </a>
           <div className="d-flex">
             <a className="nav-link" href="https://caltrack.typedream.app/journey">
