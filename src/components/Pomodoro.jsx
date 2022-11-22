@@ -4,6 +4,7 @@ import Tags from "./Tags.jsx";
 import { useContext, useEffect } from "react";
 import { StateContext } from "./StateProvider";
 import Tips from "./Tips.jsx";
+import React from 'react';
 
 function Pomodoro() {
   const {time, setTime, isActive, setIsActive} = useContext(StateContext);

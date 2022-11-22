@@ -4,6 +4,7 @@ import Pomodoro from './components/Pomodoro.jsx';
 import Todolist from './components/Todolist.jsx';
 import Footer from './components/Footer.jsx';
 import Music from './components/Music.jsx';
+import React from 'react';
 
 function App() {
   return (

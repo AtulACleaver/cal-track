@@ -2,6 +2,7 @@ import "../css/Tags.css";
 import { useContext } from "react";
 import styled, { css } from "styled-components";
 import { StateContext } from "./StateProvider.jsx";
+import React from 'react';
 
 const Tags = () => {
   const { activeTag, setActiveTag } = useContext(StateContext);

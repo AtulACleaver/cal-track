@@ -1,6 +1,7 @@
 import "../css/Footer.css";
 import "../css/main.css";
 import profile from "../img/pfp.png";
+import React from 'react';
 
 function Footer() {
   return (

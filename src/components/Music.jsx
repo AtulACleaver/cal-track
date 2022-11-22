@@ -4,6 +4,7 @@ import Nature from "../songs/nature.mp3";
 import ReactAudioPlayer from "react-audio-player";
 import { Component } from "react";
 import { useState } from "react";
+import React from 'react';
 
 function Music() {
   return (

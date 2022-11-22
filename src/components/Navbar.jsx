@@ -1,5 +1,6 @@
 import "../css/Pomodoro.css";
 import "../css/main.css";
+import React from 'react';
 
 function Navbar() {
   return (
